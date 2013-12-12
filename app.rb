@@ -4,7 +4,7 @@ require './lib/class_compliments'
 
 class App < Sinatra::Application
 
-  get '/compliments' do 
+  get '/' do 
     var = Compliments.new.messages.sample
     @message_post = var[0]
     @back_color = var[1]
