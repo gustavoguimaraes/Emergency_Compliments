@@ -11,16 +11,19 @@ width: 180px;
 border-radius: 90px 90px 90px 90px;
 -moz-border-radius: 90px 90px 90px 90px;
 -webkit-border-radius: 90px 90px 90px 90px;
-background: rgba(255,255,255, 1);
 z-index: 1;
-top: 10px;
-position: fixed;
+top: 3%;
+position: relative;
 margin-left: 20px;
 text-align: center;
-font-size: 15pt;
-padding-top: 70px;
+font-size: 1em;
+padding-top: 5%;
 font-family: 'Niconne', cursive;
 line-height: 1.1;
+}
+
+a{
+  text-decoration: none;
 }
 
 body {

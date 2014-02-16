@@ -5,7 +5,8 @@ require './lib/class_compliments'
 class App < Sinatra::Application
 
   get '/' do 
-    var = Compliments.new.messages.sample
+    first = Compliments.new.messages
+    var = first.sample unless first == var
     @message_post = var[0]
     @back_color = var[1]
     @image = var[2]
